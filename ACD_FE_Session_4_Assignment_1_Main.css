@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+form{
+    width:400px;
+    height:400px
+    margin :0 auto;
+    border: 2px solid blue;
+    text-align: center;
+    margin-left: 400px;
+
+}
+table{
+    margin: 0 auto;
+}
+#vehicleType{
+    width:145px;
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <link href="ACD_FE_Session_4_Assignment_1_Main.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <form action="" method="post">
+            <h3>Vehicle Form</h3>
+            <table>
+                <tr>    
+                    <td><input type ="text" placeholder="Name" id="name" ></td>
+                </tr>
+                <tr>    
+                    <td><input type ="text" placeholder="Description" id="desc" ></td>
+                </tr>
+                 <tr>    
+                    <td><input type ="text" placeholder="Cost per Kilometer" id="cost" ></td>
+                </tr>
+                 <tr>    
+                    <td>
+                        <select id="vehicleType">
+                            <option selected="selected">Vehicle Type</option>
+                            <option value="Two Wheeler">Two Wheeler</option>
+                            <option value="Four Wheeler">Four Wheeler</option>
+                        </select>
+                    </td>
+                </tr>
+                 <tr>    
+                     <td><button type="button" id="submit" onclick="navigationPage()" >Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    <script src="ACD_FE_Session_4_Assignment_1_Main.js" ></script>
+</html>
